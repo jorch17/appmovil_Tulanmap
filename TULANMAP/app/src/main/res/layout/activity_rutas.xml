@@ -20,7 +20,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="6dp"
-        android:backgroundTint="#FFFF0000"
+        android:backgroundTint="#52bd2c"
         android:text="HOME"
         android:textSize="20sp" />
 </RelativeLayout>

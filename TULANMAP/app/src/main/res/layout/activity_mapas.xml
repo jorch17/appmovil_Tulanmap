@@ -12,26 +12,26 @@
         android:layout_height="78dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="4dp"
-        android:backgroundTint="#FFFF0000"
+        android:backgroundTint="#52bd2c"
         android:text="HOME"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button_ruta1"
+        android:id="@+id/Mapa_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="107dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="108dp"
-        android:text="Tulancingo-Cuautepec"
+        android:text="Ampliacion-Preferida"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_ruta2"
+        android:id="@+id/Mapa_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
@@ -40,10 +40,10 @@
         android:text="Tulancingo-La villita"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_ruta1" />
+        app:layout_constraintTop_toBottomOf="@+id/Mapa_1" />
 
     <Button
-        android:id="@+id/button_ruta3"
+        android:id="@+id/Mapa_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="75dp"
@@ -54,5 +54,5 @@
         app:layout_constraintBottom_toTopOf="@+id/button_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_ruta2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mapa_2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

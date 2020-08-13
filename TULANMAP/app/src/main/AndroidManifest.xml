@@ -16,9 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ampliacionSonora"></activity>
-        <activity android:name=".lavillita" />
-        <activity android:name=".tulancingo_cuautepec" />
+        <activity android:name=".Mapa_3"></activity>
+        <activity android:name=".Mapa_2" />
+        <activity android:name=".Mapa_1" />
         <activity android:name=".mapasActivity" />
         <activity android:name=".rutasActivity" />
         <activity android:name=".destinosActivity" />

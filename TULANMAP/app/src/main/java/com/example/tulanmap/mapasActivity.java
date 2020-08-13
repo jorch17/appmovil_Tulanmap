@@ -20,9 +20,9 @@ public class mapasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mapas);
 
         home = (Button)findViewById(R.id.button_home);
-        tulanCuautepec =(Button)findViewById(R.id.button_ruta1);
-        lavillita =(Button)findViewById(R.id.button_ruta2);
-        sonora = (Button)findViewById(R.id.button_ruta3);
+        tulanCuautepec =(Button)findViewById(R.id.Mapa_1);
+        lavillita =(Button)findViewById(R.id.Mapa_2);
+        sonora = (Button)findViewById(R.id.Mapa_3);
 
 
         home.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +41,7 @@ public class mapasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent ir_mapa1 = new Intent(mapasActivity.this, tulancingo_cuautepec.class);
+                Intent ir_mapa1 = new Intent(mapasActivity.this, Mapa_1.class);
                 startActivity(ir_mapa1);
 
             }
@@ -52,7 +52,7 @@ public class mapasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent ir_mapa2 = new Intent(mapasActivity.this, lavillita.class);
+                Intent ir_mapa2 = new Intent(mapasActivity.this, Mapa_2.class);
                 startActivity(ir_mapa2);
 
             }
@@ -63,7 +63,7 @@ public class mapasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent ir_mapa3 = new Intent(mapasActivity.this, ampliacionSonora.class);
+                Intent ir_mapa3 = new Intent(mapasActivity.this, Mapa_3.class);
                 startActivity(ir_mapa3);
 
             }
