@@ -30,6 +30,7 @@
                 app:srcCompat="@drawable/tulancingo" />
 
             <LinearLayout
+                android:id="@+id/ruta-1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
@@ -52,6 +53,8 @@
                     android:layout_height="wrap_content"
                     android:text="textview"
                     android:textSize="25sp" />
+
+
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

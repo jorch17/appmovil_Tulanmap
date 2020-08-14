@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent ir_rutas = new Intent(MainActivity.this, rutasActivity.class);
+                Intent ir_rutas = new Intent(MainActivity.this, Menu_rutas.class);
                 startActivity(ir_rutas);
 
             }
