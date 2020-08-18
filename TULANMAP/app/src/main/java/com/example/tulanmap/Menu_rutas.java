@@ -34,5 +34,15 @@ public class Menu_rutas extends AppCompatActivity {
                 startActivity(a);
             }
         });
+
+        btn=findViewById(R.id.boton_2);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(Menu_rutas.this, Ruta_3.class);
+                startActivity(a);
+            }
+        });
     }
 }
