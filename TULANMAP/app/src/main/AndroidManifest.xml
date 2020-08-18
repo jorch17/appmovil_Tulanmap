@@ -16,7 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ruta_3"></activity>
+        <activity android:name=".Tarifas_3"></activity>
+        <activity android:name=".destinosActivity_2" />
+        <activity android:name=".Tarifas_2" />
+        <activity android:name=".Tarifas_1" />
+        <activity android:name=".Paradas_1" />
+        <activity android:name=".Ruta_3" />
         <activity android:name=".Ruta_1" />
         <activity android:name=".Ruta_2" />
         <activity android:name=".Menu_rutas" />

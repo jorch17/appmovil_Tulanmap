@@ -21,5 +21,22 @@ public class Ruta_1 extends AppCompatActivity {
                 startActivity(a);
             }
         });
+
+        btn=findViewById(R.id.paradas_1);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(Ruta_1.this, destinosActivity.class);
+                startActivity(a);
+            }
+        });
+        btn=findViewById(R.id.tarifas_1);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(Ruta_1.this, Tarifas_1.class);
+                startActivity(a);
+            }
+        });
     }
 }

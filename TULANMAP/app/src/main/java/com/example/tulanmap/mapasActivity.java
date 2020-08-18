@@ -19,7 +19,7 @@ public class mapasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapas);
 
-        home = (Button)findViewById(R.id.button_home);
+        home = (Button)findViewById(R.id.button_ruta);
         tulanCuautepec =(Button)findViewById(R.id.Mapa_1);
         lavillita =(Button)findViewById(R.id.Mapa_2);
         sonora = (Button)findViewById(R.id.Mapa_3);

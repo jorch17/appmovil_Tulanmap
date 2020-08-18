@@ -6,19 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Ruta_1">
 
-    <Button
-        android:id="@+id/home_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Inicio"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938"
-        android:backgroundTint="#52bd2c"/>
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="174dp"
@@ -36,7 +23,7 @@
         android:id="@+id/textView2"
         android:layout_width="260dp"
         android:layout_height="20dp"
-        android:text="nombre_ruta: Tulancingo-Cuatepec"
+        android:text="Nombre ruta: Tulancingo-Cuatepec"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.139"
@@ -48,7 +35,7 @@
         android:id="@+id/textView6"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="hora_inicio: 6:00 am"
+        android:text="Hora inicio: 6:00 am"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -60,7 +47,7 @@
         android:id="@+id/textView7"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="hora_fin: 11:00 pm"
+        android:text="Hora fin: 11:00 pm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -72,7 +59,7 @@
         android:id="@+id/textView8"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="tiempo_recorrido: 25 minutos"
+        android:text="Tiempo recorrido: 25 minutos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -84,7 +71,7 @@
         android:id="@+id/textView9"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="distancia_km: 10.3km"
+        android:text="Distancia km: 10.3km"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -96,11 +83,51 @@
         android:id="@+id/textView10"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="intervalo: 3 minutos"
+        android:text="Intervalo: 3 minutos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.535" />
+
+    <Button
+        android:id="@+id/paradas_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Paradas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <Button
+        android:id="@+id/tarifas_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Tarifas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <Button
+        android:id="@+id/home_1"
+        android:layout_width="78dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/casa"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
 </androidx.constraintlayout.widget.ConstraintLayout>
