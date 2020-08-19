@@ -7,18 +7,19 @@ import android.view.View;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class Paradas_1 extends AppCompatActivity {
+import android.os.Bundle;
+
+public class Paradas_3 extends AppCompatActivity {
     Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_paradas_1);
-
-        btn=findViewById(R.id.atras_1);
+        setContentView(R.layout.activity_paradas_3);
+        btn=findViewById(R.id.atras_3);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a=new Intent(Paradas_1.this, Ruta_1.class);
+                Intent a=new Intent(Paradas_3.this, Ruta_3.class);
                 startActivity(a);
             }
         });

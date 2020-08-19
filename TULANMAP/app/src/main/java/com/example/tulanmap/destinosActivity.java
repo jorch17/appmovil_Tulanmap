@@ -77,18 +77,6 @@ public class destinosActivity extends AppCompatActivity {
         datos.add(new MostrarDatos("Parada","Santa martha",R.drawable.logo));
         datos.add(new MostrarDatos("Parada","La guadalupana",R.drawable.logo));
         datos.add(new MostrarDatos("Parada","Cuautepec",R.drawable.logo));
-
-
-        datos.add(new MostrarDatos("Destino","Juarez",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","El hospital viejo",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","Jardinez del sur",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","Plaza patio",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","Plaza San francisco",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","Puente de la UTEC",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","La preferida",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","La villita",R.drawable.logo));
-        datos.add(new MostrarDatos("Destino","La Sonora",R.drawable.logo));
-
         return datos;
 
 

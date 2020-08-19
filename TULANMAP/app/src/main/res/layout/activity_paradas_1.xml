@@ -15,7 +15,6 @@
         tools:layout_editor_absoluteY="89dp" />
 
     <Button
-        android:id="@+id/atras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"

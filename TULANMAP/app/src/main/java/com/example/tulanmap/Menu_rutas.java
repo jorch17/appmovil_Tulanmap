@@ -44,5 +44,15 @@ public class Menu_rutas extends AppCompatActivity {
                 startActivity(a);
             }
         });
+
+        btn=findViewById(R.id.proximo);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(Menu_rutas.this, Menu_rutas_2.class);
+                startActivity(a);
+            }
+        });
     }
 }

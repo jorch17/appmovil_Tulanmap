@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ruta_1">
+    tools:context=".Ruta_4">
 
     <TextView
         android:id="@+id/textView"
@@ -23,7 +23,7 @@
         android:id="@+id/textView2"
         android:layout_width="260dp"
         android:layout_height="20dp"
-        android:text="Nombre ruta: Tulancingo-Cuatepec"
+        android:text="Nombre ruta: Tulancingo-Preferida"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.139"
@@ -47,7 +47,7 @@
         android:id="@+id/textView7"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="Hora fin: 11:00 pm"
+        android:text="Hora fin: 9:00 pm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -59,7 +59,7 @@
         android:id="@+id/textView8"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="Tiempo recorrido: 25 minutos"
+        android:text="Tiempo recorrido: 35 minutos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -71,7 +71,7 @@
         android:id="@+id/textView9"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="Distancia km: 10.3km"
+        android:text="Distancia km: 10.6 km"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -83,7 +83,7 @@
         android:id="@+id/textView10"
         android:layout_width="237dp"
         android:layout_height="20dp"
-        android:text="Intervalo: 3 minutos"
+        android:text="Intervalo: 8 minutos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.535" />
 
     <Button
-        android:id="@+id/paradas_1"
+        android:id="@+id/paradas_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
@@ -105,7 +105,7 @@
         app:layout_constraintVertical_bias="0.951" />
 
     <Button
-        android:id="@+id/tarifas_1"
+        android:id="@+id/tarifas_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.951" />
 
     <Button
-        android:id="@+id/home_1"
+        android:id="@+id/home_4"
         android:layout_width="78dp"
         android:layout_height="50dp"
         android:layout_marginEnd="40dp"
