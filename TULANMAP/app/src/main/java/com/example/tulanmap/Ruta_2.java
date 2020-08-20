@@ -25,7 +25,7 @@ public class Ruta_2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a=new Intent(Ruta_2.this, destinosActivity.class);
+                Intent a=new Intent(Ruta_2.this, Paradas_2.class);
                 startActivity(a);
             }
         });

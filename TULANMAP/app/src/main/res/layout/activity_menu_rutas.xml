@@ -61,7 +61,7 @@
         android:id="@+id/textView5"
         android:layout_width="201dp"
         android:layout_height="42dp"
-        android:text="Tulancingo-cuatepec"
+        android:text="Tulancingo-Cuatepec"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.8"
